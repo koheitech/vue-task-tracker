@@ -1,5 +1,7 @@
 <template>
-  <div class="task">
+  <!-- we can apply several classes using JS ternary operator as v-bind -->
+  <!-- this case, reminder class is applied for those tasks with reminder true -->
+  <div :class="[task.reminder ? 'reminder' : '', 'task']">
     <h3>
       {{ task.text }}
       <i class="fas fa-times"></i>
