@@ -47,7 +47,7 @@ export default {
 
       const newTask = {
         // since we have no backend yet, create randomized id for now
-        id: Math.floor(Math.random() * 100000),
+        // id: Math.floor(Math.random() * 100000),
         text: this.text,
         day: this.day,
         reminder: this.reminder,
