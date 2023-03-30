@@ -1,19 +1,26 @@
-# vue-crash-2021
+# README - Task Tracker
+- This is simple TODO management app built with Vue.js and mock DB
+- This app is made based on tutorial "[Vue JS Crash Course](https://www.youtube.com/watch?v=qZXt1Aom3Cs)" by Traversy Media
 
 ## Project setup
+install npm package
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+install [JSON server](https://www.npmjs.com/package/json-server) npm package to use fake backend for persistent data
 ```
+npm i json-server
+```
+
+## Run on development env
+```
+# starting vue
 npm run serve
 ```
-
-### Compiles and minifies for production
 ```
-npm run build
+# starting JSON server
+npm run backend
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Production
+TO BE DEPLOYED SOON!
