@@ -7,10 +7,6 @@ install npm package
 ```
 npm install
 ```
-install [JSON server](https://www.npmjs.com/package/json-server) npm package to use fake backend for persistent data
-```
-npm i json-server
-```
 
 ## Run on development env
 ```
