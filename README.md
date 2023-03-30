@@ -10,11 +10,11 @@ npm install
 
 ## Run on development env
 ```
-# starting vue
+# starting vue at http://localhost:8080
 npm run serve
 ```
 ```
-# starting JSON server
+# starting JSON server at http://localhost:5000
 npm run backend
 ```
 
